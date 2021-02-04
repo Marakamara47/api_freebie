@@ -1,0 +1,23 @@
+/* fonts */
+@font-face {
+    font-family: "Archivo-Regular";  
+    src: url("../fonts/Archivo-Regular.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "ArchivoBlack-Regular";  
+    src: url("../fonts/ArchivoBlack-Regular.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "Chivo-Regular";  
+    src: url("../fonts/Chivo-Regular.ttf") format("truetype");  
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Archivo-Regular";
+}
+button, a{
+    font-family: "ArchivoBlack-Regular";
+}
+p, span{
+    font-family: "Chivo-Regular";
+}
+/* fonts */

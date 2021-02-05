@@ -1,3 +1,82 @@
-
-
-
+/* primal */
+html{
+    font-size: 16px;
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+button{
+    color: white;
+    background-color: inherit;
+}
+body{
+    background-color: #000000;
+}
+/* header */
+.header{
+    padding: 1vw 2vw;
+}
+.header > span{
+    color: #666666;
+}
+.header > span > a{
+    font-family: "Chivo-Regular";
+}
+/* main */
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+/* login_options */
+.login_options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* login_description */
+.login_description{
+    padding-left: 2vw;
+}
+.login_description > h1{
+    font-size: 6rem;
+    padding: 3vw 0px 2vw 0;
+}
+.login_description > p{
+    color: #B2B2B2;
+    font-size: 2rem;
+    width: 18vw;
+}
+/* login_links */
+.login_links{
+    width: 57vw;
+}
+.ext_login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+    border-top: 1px solid #fff;
+}
+.ext_login > img{
+    padding-right: 1vw;
+}
+.ext_link{
+    display: flex;
+    align-items: center;
+    padding: 1.5vw 2vw;
+}
+.ext_link > a{
+    font-family: "Chivo-Regular";
+    padding-left: 1vw;
+    font-size: 1.5rem;
+}
+.ext_logo{
+    width: 2vw;
+    height: 2vw;
+}
+/* wallpaper */
+.wallpaper > img{
+    width: 43vw;
+}
